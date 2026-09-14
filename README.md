@@ -48,8 +48,19 @@ conda activate ai-foundations
 
 ### 3. Install Dependencies
 
-```
+Python version:
+3.11
+
+```bash
+
 pip install -r requirements.txt
+
+```
+
+for conda envs:
+
+```bash
+conda env create -f environment.yml
 
 ```
 
@@ -77,7 +88,16 @@ Open the notebook and run all cells from top to bottom.
 Generate the requirements file with:
 
 ```bash
+
 pip freeze > requirements.txt
+
+```
+
+for conda export:
+
+```bash
+
+conda env export > environment.yml
 
 ```
 
