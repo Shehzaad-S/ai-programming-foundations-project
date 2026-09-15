@@ -47,7 +47,7 @@ Agentic AI systems could help automate portions of this workflow, including data
 ```bash
 
 git clone <repository-url>
-cd ai-programming-foundations
+cd ai-programming-foundations-project
 
 ```
 
