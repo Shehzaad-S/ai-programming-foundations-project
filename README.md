@@ -46,6 +46,17 @@ conda activate ai-foundations
 
 ```
 
+Example using Python env (Windows cmd):
+
+```bash
+
+python -m venv .venv
+.venv\Scripts\activate.bat
+
+```
+
+Please use operating system specific terminal commands for your system
+
 ### 3. Install Dependencies
 
 Python version:
@@ -101,4 +112,4 @@ conda env export > environment.yml
 
 ```
 
-The generated `requirements.txt` file is included in this repository for reproducibility.
+The `requirements.txt` file is included in this repository for reproducibility.
