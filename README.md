@@ -66,8 +66,8 @@ Example using Python env (Windows cmd):
 
 ```bash
 
-python -m venv .venv
-.venv\Scripts\activate.bat
+python -m venv ai-foundations
+ai-foundations\Scripts\activate.bat
 
 ```
 
